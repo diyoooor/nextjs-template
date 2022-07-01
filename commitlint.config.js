@@ -30,20 +30,20 @@ module.exports = {
       2,
       'always',
       [
-        ':package: build',
-        ':heavy_plus_sign: depen',
+        'build', //:package: 📦️
+        'depen', //:heavy_plus_sign:, ➕
         'chore',
-        ':construction_worker: ci',
-        ':memo: docs',
-        ':sparkles: feat',
-        ':bug: fix',
-        ':zap: perf',
-        ':recycle: refactor',
-        ':rewind: revert',
-        ':lipstick: style',
+        'ci', //:construction_worker: 👷
+        'docs', //:memo: 📝
+        'feat', //:sparkles: ✨
+        'fix', //:bug: 🐛
+        'perf', //:zap: ⚡️
+        'refactor', //:recycle: ♻️
+        'revert', //:rewind:⏪️
+        'style', //:lipstick: 💄
         'test',
-        ':globe_with_meridians: translation',
-        ':lock: security',
+        'translation', //:globe_with_meridians: 🌐
+        'security', //:lock: 🔒️
         'changeset',
       ],
     ],
